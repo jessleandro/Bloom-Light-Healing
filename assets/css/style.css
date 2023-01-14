@@ -182,4 +182,27 @@ h3 {
     padding: 0.5rem;
     background-color: #dde1e1;
     color: #324B4B;
-  }  
+  }
+  
+  @media screen and (max-width: 620px) {
+    .vertical-center {
+      top: 10%;
+      font-size: smaller;
+    }
+    .right-box, .left-box, .center-box, #initial-text {
+      width: 100%;
+      box-sizing: border-box;
+      margin: 0 auto;
+      text-align: left;
+      list-style: none;
+    }
+    #tarot-img {
+      height: 25vh;
+    }
+  }
+  @media screen and (max-width: 920px) {
+    #sec1-img {
+      color:#fff0f0;
+      text-shadow: 1px 1px black;
+    }
+  }
