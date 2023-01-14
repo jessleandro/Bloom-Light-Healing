@@ -17,6 +17,8 @@ h3 {
   text-transform: uppercase;
 }
 
+/* header */
+
 .vertical-center {
   position: relative;
   top: 30%;
@@ -28,6 +30,8 @@ h3 {
   background: url('../images/pexels-ekaterina-bolovtsova-6766279.jpg') center / cover no-repeat;
   color: #fff0f0;
 }
+
+/* nav bar */
 
 #menu {
     margin-top: 10px;
@@ -51,4 +55,21 @@ h3 {
   
   #menu a:hover {
     color: #ffe433;
+  }
+
+  /* section 1 */
+
+  section h2 {
+    text-align: center;
+  }
+  
+  #sec1-img {
+    padding: 5px;
+    background: url('../images/pexels-elina-fairytale-3865795.jpg') center / cover no-repeat;
+  }
+  
+  #initial-text {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
   }
