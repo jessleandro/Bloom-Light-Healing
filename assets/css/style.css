@@ -145,3 +145,41 @@ h3 {
   footer p {
     text-align: center;
   }
+
+  /* form */
+
+  form {
+    width: 80%;
+    padding: 15px;
+    margin: 15px auto;
+    background-color: white;
+  }
+  
+  .measures {
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  
+  legend {
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0.5em;
+  }
+  
+  fieldset {
+    border: solid;
+    padding: 2%;
+    margin: 1.5em;
+  }
+  
+  input[type=submit] {
+    padding: 0.5rem;
+    color: #324B4B;
+    background-color: #c8fee7;
+  }
+  
+  input[type=reset] {
+    padding: 0.5rem;
+    background-color: #dde1e1;
+    color: #324B4B;
+  }  
