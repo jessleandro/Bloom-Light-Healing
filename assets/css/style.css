@@ -117,3 +117,31 @@ h3 {
   .float-clear {
     clear: both;
   }
+
+  /* footer */
+
+  footer {
+    text-align: center;
+    background-color: rgba(180, 219, 209, 0.7);
+  }
+  
+  footer h3 {
+    color: #9ca0ce;
+    font-style: normal;
+    text-decoration: underline wavy;
+  }
+  
+  footer a {
+    color: #8c90c6;
+    text-decoration: none;
+    padding: 0 15px;
+    font-size: 1rem;
+  }
+  
+  footer a:hover {
+    text-decoration: underline;
+  }
+  
+  footer p {
+    text-align: center;
+  }
