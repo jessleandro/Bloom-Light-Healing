@@ -28,3 +28,27 @@ h3 {
   background: url('../images/pexels-ekaterina-bolovtsova-6766279.jpg') center / cover no-repeat;
   color: #fff0f0;
 }
+
+#menu {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 1px double #85324b;
+    text-align: center;
+    background-color: floralwhite
+  }
+  
+  nav > a {
+  text-decoration: none;
+  color: #A6A9CD;
+  margin-left: 2%;
+  padding: 0.5em;
+  display: inline-block;
+  }
+  
+  nav > a:hover {
+    color: #ffe433;
+  }
+  
+  #menu a:hover {
+    color: #ffe433;
+  }
